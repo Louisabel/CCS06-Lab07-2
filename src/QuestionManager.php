@@ -92,7 +92,7 @@ class QuestionManager
         }
     }
 
-    public function Kekw($answers)
+    public function Getresults($answers)
     {
         $result = fopen('result.txt' , 'w');
         $x = 1;
