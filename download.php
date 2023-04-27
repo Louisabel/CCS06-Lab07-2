@@ -7,5 +7,5 @@ use App\QuestionManager;
 $manager = new QuestionManager;
 if($_SERVER["REQUEST_METHOD"] == "POST" and isset($_POST['download']))
 {
-    $manager->kekw($_SESSION['answers']);
+    $manager->Getresults($_SESSION['answers']);
 }
